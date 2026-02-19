@@ -1,6 +1,6 @@
 # sops-check
 
-[![Build Status](https://github.com/Bonial-International-GmbH/sops-check/actions/workflows/ci.yml/badge.svg)](https://github.com/Bonial-International-GmbH/sops-check/actions/workflows/ci.yml)
+[![Build Status](https://github.com/bonial-oss/sops-check/actions/workflows/ci.yml/badge.svg)](https://github.com/Bonial-International-GmbH/sops-check/actions/workflows/ci.yml)
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 > [!NOTE]
@@ -20,7 +20,7 @@ document](docs/design.md). We are happy to hear your thoughts about it.
 The simplest way is to install the latest version via:
 
 ```sh
-go install github.com/Bonial-International-GmbH/sops-check@latest
+go install github.com/bonial-oss/sops-check@latest
 ```
 
 Finally, consult the help for usage instructions:

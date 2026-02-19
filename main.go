@@ -8,11 +8,11 @@ import (
 	"os"
 	"strings"
 
-	"github.com/Bonial-International-GmbH/sops-check/internal/cli"
-	"github.com/Bonial-International-GmbH/sops-check/internal/config"
-	"github.com/Bonial-International-GmbH/sops-check/internal/rules"
-	"github.com/Bonial-International-GmbH/sops-check/internal/sops"
-	"github.com/Bonial-International-GmbH/sops-check/internal/stringutils"
+	"github.com/bonial-oss/sops-check/internal/cli"
+	"github.com/bonial-oss/sops-check/internal/config"
+	"github.com/bonial-oss/sops-check/internal/rules"
+	"github.com/bonial-oss/sops-check/internal/sops"
+	"github.com/bonial-oss/sops-check/internal/stringutils"
 	"github.com/owenrumney/go-sarif/v2/sarif"
 	ignore "github.com/sabhiram/go-gitignore"
 )

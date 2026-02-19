@@ -1,4 +1,4 @@
-module github.com/Bonial-International-GmbH/sops-check
+module github.com/bonial-oss/sops-check
 
 go 1.25.0
 

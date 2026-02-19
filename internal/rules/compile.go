@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"regexp"
 
-	"github.com/Bonial-International-GmbH/sops-check/internal/config"
+	"github.com/bonial-oss/sops-check/internal/config"
 	ignore "github.com/sabhiram/go-gitignore"
 )
 
