@@ -5,7 +5,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/Bonial-International-GmbH/sops-check/internal/stringutils"
+	"github.com/bonial-oss/sops-check/internal/stringutils"
 	"github.com/hashicorp/go-set/v3"
 )
 

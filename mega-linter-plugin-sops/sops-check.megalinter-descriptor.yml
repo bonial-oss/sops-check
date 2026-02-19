@@ -6,8 +6,8 @@ descriptor_flavors:
 linters:
   - name: SOPS_CHECK
     linter_name: sops-check
-    linter_url: https://github.com/Bonial-International-GmbH/sops-check/
-    linter_repo: https://github.com/Bonial-International-GmbH/sops-check/
+    linter_url: https://github.com/bonial-oss/sops-check/
+    linter_repo: https://github.com/bonial-oss/sops-check/
     can_output_sarif: true
     cli_executable: "sops-check"
     cli_config_arg_name: "--config"
@@ -28,6 +28,6 @@ linters:
       - "sops-check --sarif-report-path=<PATH>"
     install:
       dockerfile:
-        - RUN curl -SsL https://github.com/Bonial-International-GmbH/sops-check/releases/latest/download/sops-check_linux_amd64 -o sops-check \
+        - RUN curl -SsL https://github.com/bonial-oss/sops-check/releases/latest/download/sops-check_linux_amd64 -o sops-check \
           && chmod +x sops-check \
           && mv sops-check /usr/local/bin
