@@ -1,6 +1,6 @@
 module github.com/bonial-oss/sops-check
 
-go 1.25.0
+go 1.26.10
 
 require (
 	github.com/alecthomas/kingpin/v2 v2.4.0
@@ -9,8 +9,9 @@ require (
 	github.com/goccy/go-yaml v1.19.2
 	github.com/hashicorp/go-set/v3 v3.0.1
 	github.com/owenrumney/go-sarif/v2 v2.3.3
+	github.com/owenrumney/go-sarif/v3 v3.3.2
 	github.com/sabhiram/go-gitignore v0.0.0-20210923224102-525f6e181f06
-	github.com/stretchr/testify v1.11.1
+	github.com/stretchr/testify v1.12.1
 )
 
 replace github.com/opencontainers/runc v1.2.6 => github.com/opencontainers/runc v1.3.4
@@ -121,7 +122,7 @@ require (
 	go.opentelemetry.io/otel/sdk v1.40.0 // indirect
 	go.opentelemetry.io/otel/sdk/metric v1.40.0 // indirect
 	go.opentelemetry.io/otel/trace v1.40.0 // indirect
-	go.yaml.in/yaml/v3 v3.0.4 // indirect
+	go.yaml.in/yaml/v3 v3.0.5 // indirect
 	golang.org/x/crypto v0.48.0 // indirect
 	golang.org/x/net v0.50.0 // indirect
 	golang.org/x/oauth2 v0.35.0 // indirect
