@@ -1,6 +1,6 @@
 module github.com/bonial-oss/sops-check
 
-go 1.25.0
+go 1.26.0
 
 require (
 	github.com/alecthomas/kingpin/v2 v2.4.0
@@ -10,7 +10,7 @@ require (
 	github.com/hashicorp/go-set/v3 v3.0.1
 	github.com/owenrumney/go-sarif/v2 v2.3.3
 	github.com/sabhiram/go-gitignore v0.0.0-20210923224102-525f6e181f06
-	github.com/stretchr/testify v1.11.1
+	github.com/stretchr/testify v1.12.1
 )
 
 replace github.com/opencontainers/runc v1.2.6 => github.com/opencontainers/runc v1.3.4
@@ -71,7 +71,7 @@ require (
 	github.com/felixge/httpsnoop v1.0.4 // indirect
 	github.com/getsops/gopgagent v0.0.0-20241224165529-7044f28e491e // indirect
 	github.com/go-jose/go-jose/v4 v4.1.3 // indirect
-	github.com/go-logr/logr v1.4.3 // indirect
+	github.com/go-logr/logr v1.4.4 // indirect
 	github.com/go-logr/stdr v1.2.2 // indirect
 	github.com/golang-jwt/jwt/v5 v5.3.1 // indirect
 	github.com/google/go-cmp v0.7.0 // indirect
@@ -116,12 +116,13 @@ require (
 	go.opentelemetry.io/contrib/detectors/gcp v1.40.0 // indirect
 	go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc v0.65.0 // indirect
 	go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp v0.65.0 // indirect
-	go.opentelemetry.io/otel v1.40.0 // indirect
-	go.opentelemetry.io/otel/metric v1.40.0 // indirect
+	go.opentelemetry.io/otel v1.47.0 // indirect
+	go.opentelemetry.io/otel/log v1.47.0 // indirect
+	go.opentelemetry.io/otel/metric v1.47.0 // indirect
 	go.opentelemetry.io/otel/sdk v1.40.0 // indirect
 	go.opentelemetry.io/otel/sdk/metric v1.40.0 // indirect
-	go.opentelemetry.io/otel/trace v1.40.0 // indirect
-	go.yaml.in/yaml/v3 v3.0.4 // indirect
+	go.opentelemetry.io/otel/trace v1.47.0 // indirect
+	go.yaml.in/yaml/v3 v3.0.5 // indirect
 	golang.org/x/crypto v0.48.0 // indirect
 	golang.org/x/net v0.50.0 // indirect
 	golang.org/x/oauth2 v0.35.0 // indirect
